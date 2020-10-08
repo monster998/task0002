@@ -23,6 +23,7 @@
     margin: 0 auto;
     width:1200px;
 }
+
 .fl{
     float: left;
 }
@@ -52,7 +53,7 @@
     margin-left: 6px;
 }
 
-/* 头部制作 */
+/* header头部制作 */
 .header{
     position: relative;
     height: 105px;
@@ -73,4 +74,90 @@
     width: 171px;
     background: url(../images/logo.png) no-repeat;
     font-size: 0;
+}
+
+.search{
+    position: absolute;
+    left: 346px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+
+.search input{
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.search button{
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #f1f1f1;
+}
+
+.hotwords{
+    position: absolute;
+    top:66px;
+    left: 346px;
+}
+.hotwords a{
+    margin: 0 10px;
+}
+
+.shortcar{
+    position: absolute;
+    top: 25px;
+    right: 60px;
+
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+.shortcar::before{
+    font-family: 'icomoon';
+    content: '\e93a';
+    margin-right: 5px;
+    color: #b1191a;
+}
+.shortcar::after{
+    font-family: 'icomoon';
+    content: '\e920';
+    margin-left: 10px;
+}
+
+.count{
+    position: absolute;
+    top: -5px;
+    left: 105px;
+
+    height: 14px;
+    line-height: 14px;
+    color: #f1f1f1;
+    background-color: #e60012;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+}
+
+/* nav模块制作 */
+.nav{
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+.nav .dropdown{
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+}
+.nav .navitems{
+    float: left;
 }
