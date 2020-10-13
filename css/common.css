@@ -223,3 +223,26 @@
     padding-top: 30px;
     
 }
+.mod_service{
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+.mod_service ul li{
+    float: left;
+    width: 300px;
+    height: 50px;
+    padding-left: 35px;
+}
+.mod_service ul li h5{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -252px -2px;
+    margin-right: 8px;
+}
+.service_txt h4{
+    font-size: 14px;
+}
+.service_txt p{
+    font-size: 12px;
+}
